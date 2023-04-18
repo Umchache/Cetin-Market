@@ -3,6 +3,17 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
+    /* background-color: rgb(31, 31, 255); */
+    /* class="mycard col-lg mx-auto shadow-lg rounded" */
+}
+
+#header{
+    background-color: rgb(31, 31, 255);
+    border-radius: 10px 25px 10px 25px;
+}
+
+#clock img{
+    height: 40px;
 }
 
 #logo{
@@ -13,12 +24,14 @@
     list-style: none;
     align-items: center;
     padding: 0 25px 0 25px;
+    margin-top: 25px;
 }
 
 .mylist li{
     padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .mycard{
@@ -28,7 +41,6 @@
 
 .sclink{
     margin-top: 30px;
-    
 }
 
 .sclink a{
@@ -50,12 +62,13 @@
 }
 
 .myfooter{
-    margin-top: 30px;
-    background-color: gray;
-    width: 100%;
+    margin-top: 50px;
+    /* background-color: gray; */
+    /* width: 100%; */
 }
 
 .myfooter div p{
-    color: white;
+    color: black;
     text-align: center;
+    font-size: 16px;
 }
